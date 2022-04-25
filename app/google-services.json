@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1007488134477",
+    "project_id": "macro-8f51a",
+    "storage_bucket": "macro-8f51a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007488134477:android:dc7037852bff4c12dd9b04",
+        "android_client_info": {
+          "package_name": "com.ndp.picodiploma.taniup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007488134477-8belrc0t17ss7co5bq98bc3296rjf1ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ndp.picodiploma.taniup",
+            "certificate_hash": "415296f86b4eb78984a69bdc5d58f5007caeb4a5"
+          }
+        },
+        {
+          "client_id": "1007488134477-b7p9s1nnfirgkb5k64agf6ud3ae5h2rp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEPxD4P5UE7XlX5aq8pjp1YL1JlMEDE_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007488134477-b7p9s1nnfirgkb5k64agf6ud3ae5h2rp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
