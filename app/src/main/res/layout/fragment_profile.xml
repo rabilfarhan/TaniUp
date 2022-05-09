@@ -146,7 +146,7 @@
         <RelativeLayout
             android:id="@+id/relativeLayout"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="450dp"
             android:background="@drawable/bg_profile_bottom"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -223,6 +223,16 @@
                     android:id="@+id/switch2"
                     android:layout_margin="14dp"
                     tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                <TextView
+                    android:id="@+id/tvLogOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:drawableRight="@drawable/ic_arrow"
+                    android:text="Log out"/>
 
             </LinearLayout>
 

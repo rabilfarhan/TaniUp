@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TaniUp">
         <activity
+            android:name=".noteActivity"
+            android:exported="false" />
+        <activity
             android:name=".Login.Register"
             android:exported="true"
-            android:label="Register"/>
+            android:label="Register" />
         <activity
             android:name=".Login.Login"
             android:exported="true"
@@ -29,9 +32,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name">
-
-        </activity>
+            android:label="@string/app_name"></activity>
     </application>
 
 </manifest>

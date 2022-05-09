@@ -1,18 +1,27 @@
 package com.ndp.picodiploma.taniup.ui.profile;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.ndp.picodiploma.taniup.Login.Login;
 import com.ndp.picodiploma.taniup.R;
+import com.ndp.picodiploma.taniup.databinding.FragmentProfileBinding;
 
 
 public class ProfileFragment extends Fragment {
+
+    private FragmentProfileBinding binding;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -24,6 +33,26 @@ public class ProfileFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false);
+        binding = FragmentProfileBinding.inflate(inflater, container, false);
+        View root = binding.getRoot();
+        return root;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        binding.tvLogOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                startActivity(new Intent(getActivity().getApplication(), Login.class));
+                getActivity().finish();
+            }
+        });
+    }
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
     }
 }
