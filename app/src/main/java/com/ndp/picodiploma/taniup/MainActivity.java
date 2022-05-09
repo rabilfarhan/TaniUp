@@ -12,8 +12,8 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.ndp.picodiploma.taniup.databinding.ActivityMainBinding;
+import com.ndp.picodiploma.taniup.ui.main.noteActivity;
 
 public class MainActivity extends AppCompatActivity {
 

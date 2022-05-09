@@ -8,20 +8,24 @@
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/drawable/bg_home.xml" value="0.219" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/drawable/custom_plaintext.xml" value="0.14" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/drawable/ic_baseline_circle_notifications_24.xml" value="0.219" />
+        <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/drawable/ic_clear.xml" value="0.219" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/drawable/ic_home.xml" value="0.219" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/drawable/ic_people.xml" value="0.219" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/drawable/ic_profile.xml" value="0.219" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/drawable/outline_button.xml" value="0.33" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/drawable/transparent_bar.xml" value="0.1415" />
+        <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/activity_crud_actitvity.xml" value="0.358695652173913" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/activity_get_started.xml" value="0.25" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/activity_note.xml" value="0.358695652173913" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/fragment_dashboard.xml" value="0.358695652173913" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/fragment_notifications.xml" value="0.358695652173913" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/layout/item_note.xml" value="0.358695652173913" />
         <entry key="..\:/College/Kampus Merdeka/BATCH 2/Andro/TaniUp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
