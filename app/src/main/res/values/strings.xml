@@ -24,4 +24,53 @@
     <string name="changed">Satu item berhasil diubah</string>
     <string name="deleted">Satu item berhasil dihapus</string>
 
+
+    <string name="article_title">Judul Artikel</string>
+    <string name="article_desc">Deskripsi</string>
+
+    <string-array name="data_title">
+
+        <item>Inovasi Tanam Jagung Rapat Menghasilkan Produksi Tinggi</item>
+        <item>Cara Menanam Jagung Tanpa Olah Tanah</item>
+        <item>Sensor Pertanian Karya Start Up Lokal Diminati Internasional</item>
+        <item>Metode Tanam Padi System of Rice Intensification</item>
+        <item>Pertanian Indonesia Gunakan Teknologi 4.0</item>
+
+    </string-array>
+
+    <string-array name="data_description">
+
+        <item>Pola tanam rapat 110 cm x 12,5 cm ( double row ) x 1 benih perlubang tanam = 144.000 pohon, dimana benih jagung sebelum di tanam saya sortir dulu, dengan cara di rendam air yang sudah diberi inovasi bioteknologi sebanyak 5 ml per 30 kg benih jagung selama 2 jam, bila benih jagung mengambang, maka benih tersebut akan di singkirkan ( dimusnahkan dengan di bakar karena sudah mengandung fungisida yang sudah di berikan oleh produsen benih untuk menghindari penyakit bulai ) karena bisa di buang secara sembarangan akan berbahaya bagi ayam kampung yang memakannya, setelah perlakukan maka benih jagung sudah siap di tanam, saya lampirkan photo penunjang artikel ini ,agar kompasioner bisa mengikutinya</item>
+        <item>Perlu diketahui cara menanam jagung tanpa olah tanah ini tidak bisa diterapkan di semua jenis lahan. Hanya lahan yang memiliki tingkat kegemburan tertentu yang cocok untuk metode ini. Tanah yang keras tidak bisa menerapkan metode tanpa olah tanah. Biasanya metode tanpa olah tanah cocok diterapkan di lahan sawah, bekas tanaman padi yang telah selesai di panen. Bisa diterapkan di sawah tadah hujan maupun sawah beririgasi teknis yang ingin menerapkan rotasi tanaman. Jerami bekas tanaman padi sangat berguna sebagai mulsa untuk tanaman jagung.</item>
+        <item>Sejumlah sensor water proof ke dalam medium tanah, sehingga bisa terdeteksi kondisi tanah, kelembapan, tingkat air, hingga serapan pupuk pada sebuah tanaman. Saat ini, sudah diujicobakan pada lima petani tomat di Cipanas, Jawa Barat, yang memungkinkan petani lebih akurat dan terukur dalam pengelolaan agrikultur sehingga hasil lebih memadai. Mengacu hasil di lahan tersebut, rerata petani tomat Cipanas memperoleh lonjakan hasil panen dari biasanya 6.000 kg per lahan naik menjadi 7.000 kg per lahan petani setelah gunakan temuannya itu</item>
+        <item>Secara umum manfaat dari budidaya metode SRI adalah sebagai berikut: Hemat air (tidak digenang), Kebutuhan air hanya 20–30 persen dari kebutuhan air untuk cara konvensional, memulihkan kesehatan dan kesuburan tanah, serta mewujudkan keseimbangan ekologi tanah, Membentuk petani mandiri yang mampu meneliti dan menjadi ahli di lahannya sendiri. Tidak tergantung pada pupuk dan pestisida kimia buatan pabrik yang semakin mahal dan terkadang langka, membuka lapangan kerja di pedesaan, mengurangi pengangguran dan meningkatkan pendapatan keluarga petani, menghasilkan produksi beras yang sehat rendemen tinggi, serta tidak mengandung residu kimia, mewariskan tanah yang sehat untuk generasi mendatang.</item>
+        <item>Sebut saja program upaya khusus swasembada komoditas, akselerasi penggunaan alat mesin pertanian (alsintan) dan mekanisasi, implementasi pertanian modern, serta orientasi bibit unggul. Penggunaan bibit unggul tidak hanya meningkatkan produktivitas, tetapi juga adaptif terhadap cekaman lingkungan. Ujang menilai, program swasembada dan peningkatan produktivitas dapat menjaga keseimbangan tujuan pencapaian kesejahteraan petani dan pemenuhan permintaan pasar.</item>
+
+    </string-array>
+
+    <string-array name="data_link">
+
+        <item>https://www.kompasiana.com/davebekam/560a68054523bd2d1443bd4b/inovasi-tanam-jagung-rapat-menghasilkan-produksi-tinggi</item>
+        <item>https://alamtani.com/cara-menanam-jagung/</item>
+        <item>https://www.cnnindonesia.com/teknologi/20161123125213-185-174690/sensor-pertanian-karya-startup-lokal-diminati-internasional</item>
+        <item>https://distan.bulelengkab.go.id/informasi/detail/artikel/metode-tanam-padi-system-of-rice-intensification-sri-74</item>
+        <item>https://money.kompas.com/read/2019/07/12/123000626/tak-mau-ketinggalan-zaman-pertanian-indonesia-gunakan-teknologi-40?page=all</item>
+
+    </string-array>
+
+    <integer-array name="data_photo">
+
+        <item>@drawable/arti1</item>
+        <item>@drawable/arti2</item>
+        <item>@drawable/arti3</item>
+        <item>@drawable/arti4</item>
+        <item>@drawable/arti5</item>
+
+    </integer-array>
+
+
+
+
+
+
 </resources>
