@@ -14,7 +14,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.ndp.picodiploma.taniup.Login.Login;
+import com.ndp.picodiploma.taniup.Login.Register;
 import com.ndp.picodiploma.taniup.R;
 import com.ndp.picodiploma.taniup.databinding.FragmentProfileBinding;
 
@@ -22,6 +24,8 @@ import com.ndp.picodiploma.taniup.databinding.FragmentProfileBinding;
 public class ProfileFragment extends Fragment {
 
     private FragmentProfileBinding binding;
+    private FirebaseAuth mAuth;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -48,11 +52,28 @@ public class ProfileFragment extends Fragment {
                 startActivity(new Intent(getActivity().getApplication(), Login.class));
                 getActivity().finish();
             }
+
         });
+
+        FirebaseUser fbUser = FirebaseAuth.getInstance().getCurrentUser();
+        String name = fbUser.getDisplayName();
+        String email = fbUser.getEmail();
+        setData(name, email);
+
+
     }
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+    }
+
+
+
+    private void setData(String name, String email) {
+        binding.nameUser.setText(name);
+        binding.etUsername.setText(name);
+        binding.etEmail.setText(email);
+
     }
 }

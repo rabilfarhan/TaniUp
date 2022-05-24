@@ -37,6 +37,7 @@ public class Register extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         progressDialog();
 
+
         binding.tvLogIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -133,4 +134,6 @@ public class Register extends AppCompatActivity {
         progressDialog.setMessage("Please Wait");
         progressDialog.setCancelable(false);
     }
+
+
 }

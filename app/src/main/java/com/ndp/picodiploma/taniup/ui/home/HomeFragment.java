@@ -19,6 +19,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.ndp.picodiploma.taniup.Article;
 import com.ndp.picodiploma.taniup.ListArticleAdapter;
 import com.ndp.picodiploma.taniup.Login.Login;
@@ -55,6 +56,9 @@ public class HomeFragment extends Fragment {
         binding.rvArtikel.setHasFixedSize(true);
         list.addAll(getListArticle());
         showRecyclerList();
+
+        FirebaseUser fUser = FirebaseAuth.getInstance().getCurrentUser();
+        binding.nameUser.setText(fUser.getDisplayName());
     }
 
     @Override

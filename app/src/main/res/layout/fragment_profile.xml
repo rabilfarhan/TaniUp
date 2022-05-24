@@ -75,6 +75,7 @@
         <EditText
             android:id="@+id/etUsername"
             android:layout_width="327dp"
+            android:editable="false"
             android:layout_height="48dp"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
@@ -110,6 +111,7 @@
             android:drawableStart="@drawable/ic_mail"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
+            android:editable="false"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintStart_toStartOf="parent"
@@ -133,6 +135,7 @@
             android:layout_width="327dp"
             android:layout_height="48dp"
             android:layout_marginStart="32dp"
+            android:editable="false"
             android:layout_marginTop="12dp"
             android:background="@drawable/custom_plaintext"
             android:drawableStart="@drawable/ic_phone"
