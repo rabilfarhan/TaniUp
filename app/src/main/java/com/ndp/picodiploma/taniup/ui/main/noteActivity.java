@@ -3,6 +3,7 @@ package com.ndp.picodiploma.taniup.ui.main;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.content.Intent;
@@ -24,6 +25,7 @@ public class noteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityNoteBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        getSupportActionBar().hide();
 
         noteViewModel mainViewModel = obtainViewModel(noteActivity.this);
         mainViewModel.getAllNotes().observe(this, notes -> {
@@ -33,7 +35,7 @@ public class noteActivity extends AppCompatActivity {
         });
 
         adapter = new NoteAdapter();
-        binding.rvNotes.setLayoutManager(new LinearLayoutManager(this));
+        binding.rvNotes.setLayoutManager(new GridLayoutManager(this, 2));
         binding.rvNotes.setHasFixedSize(true);
         binding.rvNotes.setAdapter(adapter);
 

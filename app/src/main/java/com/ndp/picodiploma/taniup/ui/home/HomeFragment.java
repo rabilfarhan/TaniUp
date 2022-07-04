@@ -23,8 +23,10 @@ import com.google.firebase.auth.FirebaseUser;
 import com.ndp.picodiploma.taniup.Article;
 import com.ndp.picodiploma.taniup.ListArticleAdapter;
 import com.ndp.picodiploma.taniup.Login.Login;
+import com.ndp.picodiploma.taniup.MainActivity;
 import com.ndp.picodiploma.taniup.R;
 import com.ndp.picodiploma.taniup.databinding.FragmentHomeBinding;
+import com.ndp.picodiploma.taniup.ui.main.noteActivity;
 
 import java.util.ArrayList;
 
@@ -47,7 +49,6 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
         return root;
-
     }
 
     @Override
@@ -59,6 +60,11 @@ public class HomeFragment extends Fragment {
 
         FirebaseUser fUser = FirebaseAuth.getInstance().getCurrentUser();
         binding.nameUser.setText(fUser.getDisplayName());
+
+        binding.fab.setOnClickListener(view1 -> {
+            Intent intent = new Intent(getActivity(), noteActivity.class);
+            startActivity(intent);
+        });
     }
 
     @Override
@@ -100,5 +106,4 @@ public class HomeFragment extends Fragment {
         startActivity(browser);
 
     }
-
 }

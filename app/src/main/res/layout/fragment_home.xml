@@ -55,6 +55,20 @@
                 android:textColor="@color/white"
                 android:textStyle="bold"/>
 
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                style="@style/Widget.MaterialComponents.FloatingActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="28dp"
+                app:backgroundTint="@color/white"
+                app:layout_insetEdge="bottom"
+                app:srcCompat="@drawable/ic_add"
+                app:tint="@color/black" />
+
 
         </FrameLayout>
     
@@ -76,8 +90,10 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-        
+
     </LinearLayout>
+
+
 
 
  

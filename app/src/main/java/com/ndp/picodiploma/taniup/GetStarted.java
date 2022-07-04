@@ -19,15 +19,17 @@ public class GetStarted extends AppCompatActivity {
 
         //Intent To Login Page
         Button btnStart = findViewById(R.id.btnStart);
+
         btnStart.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(GetStarted.this, Login.class);
                 startActivity(intent);
+
             }
+
         });
-
-
 
     }
 

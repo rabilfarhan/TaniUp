@@ -13,7 +13,7 @@
         <RelativeLayout
             android:id="@+id/topground"
             android:layout_width="match_parent"
-            android:layout_height="450dp"
+            android:layout_height="400dp"
             android:background="@drawable/bg_profile"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -117,34 +117,34 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-        <TextView
-            android:id="@+id/textView5"
-            android:layout_width="89dp"
-            android:layout_height="21dp"
-            android:layout_marginStart="48dp"
-            android:layout_marginTop="16dp"
-            android:text="Phone"
-            android:textColor="@color/black"
-            android:textSize="14dp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+<!--        <TextView-->
+<!--            android:id="@+id/textView5"-->
+<!--            android:layout_width="89dp"-->
+<!--            android:layout_height="21dp"-->
+<!--            android:layout_marginStart="48dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:text="Phone"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="14dp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/etEmail" />-->
 
-        <EditText
-            android:id="@+id/etPhone"
-            android:layout_width="327dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="32dp"
-            android:editable="false"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/custom_plaintext"
-            android:drawableStart="@drawable/ic_phone"
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.333"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+<!--        <EditText-->
+<!--            android:id="@+id/etPhone"-->
+<!--            android:layout_width="327dp"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_marginStart="32dp"-->
+<!--            android:editable="false"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:background="@drawable/custom_plaintext"-->
+<!--            android:drawableStart="@drawable/ic_phone"-->
+<!--            android:paddingStart="12dp"-->
+<!--            android:paddingEnd="12dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.333"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView5" />-->
 
         <RelativeLayout
             android:id="@+id/relativeLayout"
@@ -166,9 +166,9 @@
                     android:layout_height="24dp"
                     android:layout_margin="8dp"
                     android:layout_marginTop="12dp"
-                    android:textColor="@color/black"
                     android:drawableRight="@drawable/ic_arrow"
-                    android:text="Ganti Kata Sandi"/>
+                    android:text="Ganti Kata Sandi"
+                    android:textColor="@color/black" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -176,28 +176,30 @@
                     android:layout_margin="8dp"
                     android:layout_marginTop="12dp"
                     android:text="Tema"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black" />
 
                 <RadioGroup
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+
                     <RadioButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_margin="14dp"
+                        android:layoutDirection="rtl"
                         android:text="Default"
-                        android:layout_margin="14dp"
-                        android:layoutDirection="rtl"
-                        android:textAlignment="textStart"
-                        android:layout_gravity="start"/>
+                        android:textAlignment="textStart" />
+
                     <RadioButton
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Gelap"
+                        android:layout_gravity="start"
                         android:layout_margin="14dp"
                         android:layoutDirection="rtl"
-                        android:textAlignment="textStart"
-                        android:layout_gravity="start"/>
+                        android:text="Gelap"
+                        android:textAlignment="textStart" />
                 </RadioGroup>
 
                 <TextView
@@ -206,7 +208,7 @@
                     android:layout_margin="8dp"
                     android:layout_marginTop="12dp"
                     android:text="Notifikasi"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black" />
 
                 <Switch
                     android:id="@+id/switch1"
@@ -220,11 +222,11 @@
                     tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                 <Switch
+                    android:id="@+id/switch2"
                     android:layout_width="match_parent"
                     android:layout_height="24dp"
-                    android:text="Get notifications outside of TaniUp"
-                    android:id="@+id/switch2"
                     android:layout_margin="14dp"
+                    android:text="Get notifications outside of TaniUp"
                     tools:ignore="UseSwitchCompatOrMaterialXml" />
 
                 <TextView
@@ -233,9 +235,9 @@
                     android:layout_height="24dp"
                     android:layout_margin="8dp"
                     android:layout_marginTop="12dp"
-                    android:textColor="@color/black"
                     android:drawableRight="@drawable/ic_arrow"
-                    android:text="Log out"/>
+                    android:text="Log out"
+                    android:textColor="@color/black" />
 
             </LinearLayout>
 

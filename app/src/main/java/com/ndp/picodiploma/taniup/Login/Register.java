@@ -111,7 +111,6 @@ public class Register extends AppCompatActivity {
         String emailInput = binding.etEmail.getText().toString();
 
         if (!emailInput.isEmpty() && Patterns.EMAIL_ADDRESS.matcher(emailInput).matches()
-                && binding.etPhone.getText().length() > 0
                 && binding.etPassword.getText().length() >= 6
                 && binding.etRePassword.getText().length() >= 6
                 && binding.etUsername .getText().length() > 0) {
